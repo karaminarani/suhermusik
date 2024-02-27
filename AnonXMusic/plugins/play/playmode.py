@@ -12,7 +12,7 @@ from config import BANNED_USERS
 @language
 async def playmode_(client, message: Message, _):
     playmode = await get_playmode(message.chat.id)
-    if playmode == "Direct":
+    if playmode == "Inline":
         Direct = True
     else:
         Direct = None
