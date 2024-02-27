@@ -12,10 +12,10 @@ from config import BANNED_USERS
 @language
 async def playmode_(client, message: Message, _):
     playmode = await get_playmode(message.chat.id)
-    if playmode == "Inline":
-        Inline = True
+    if playmode == "Direct":
+        Direct = True
     else:
-        Inline = None
+        Direct = None
     is_non_admin = await is_nonadmin_chat(message.chat.id)
     if not is_non_admin:
         Group = True
