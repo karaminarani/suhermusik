@@ -169,7 +169,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                  ]
                 ]
             ),
-            return buttons
+    return buttons
         elif query.data == "dareen":
         parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
