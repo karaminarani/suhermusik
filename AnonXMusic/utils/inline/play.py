@@ -60,12 +60,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-        ],
+           inlineKeyboardButton(text="Donate", callback_data="key_own"
+           inlineKeyboardButton(text="Menu", callback_data="dareen"
         [
             InlineKeyboardButton(text="channel",url=f"https://t.me/cehadaren"
             )
@@ -157,4 +153,35 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
             ),
         ],
     ]
+    return buttons
+        elif query.data == "Key_own":
+        query.message.edit_text(
+            text="👨‍💻 Uɴᴛᴜᴋ ʏᴀɴɢ ɪɴɢɪɴ ʙᴇʀᴅᴏɴᴀsɪ sᴇʙᴀɢᴀɪ ᴜᴄᴀᴘᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ᴋᴇᴘᴀᴅᴀ ᴘᴇᴍʙᴜᴀᴛ ᴅᴀʀᴇᴇɴ ✘ ʀᴏʙᴏᴛ,"
+            "\n\n • ʙɪsᴀ ʟᴀɴɢsᴜɴɢ ᴋᴇ ᴅᴀɴᴀ 𝟶𝟾𝟷𝟹𝟼𝟼𝟼𝟿𝟽𝟿𝟹𝟾 ᴀᴛᴀᴜ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ",
+            parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="**ᴅᴀʀᴇᴇɴ**", url="t.me/Darenrorr"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ",  callback_data=f"settings_back_helper","),
+                 ]
+                ]
+            ),
+            return buttons
+        elif query.data == "dareen":
+        parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+               [
+            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            inlineKeyboardButton(text="back", callback_data=f"settings_back_helper",
+         ]
+       )
     return buttons
