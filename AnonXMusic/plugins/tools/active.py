@@ -39,7 +39,7 @@ async def activevc(_, message: Message):
         await mystic.edit_text(f"No Active Voice Chats On {app.mention}.")
     else:
         await mystic.edit_text(
-            f"<b>» List Of Currently Active Voice Chats :</b>\n\n{text}",
+            f"<b>List Of Currently Active Voice Chats :</b>\n\n{text}",
             disable_web_page_preview=True,
         )
 
