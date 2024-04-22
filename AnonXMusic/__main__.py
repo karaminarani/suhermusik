@@ -50,8 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("AnonXMusic").info(
-
-"Kontol Lo Minimal Kalo Udah Idup Makasih Ke @darensupport Ya Anjeng"
+        "Kontol Lo Minimal Kalo Udah Idup Makasih Ke @darensupport Ya Anjeng"
     )
     await idle()
     await app.stop()
