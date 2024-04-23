@@ -23,7 +23,7 @@ async def must_join_channel(app: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://graph.org/file/561c8a1c1f0dc6a5a7c23.jpg", caption=f"Gausah Banyak Cacicu Lu Join Dulu Memek Baru Lu Start Lagi Biar Bisa Lu Start Lagi Ajg",
+                    photo="https://telegra.ph//file/018dafd42dd8db92dfb7e.jpg", caption=f"Gausah Banyak Cacicu Lu Join Dulu Memek Baru Lu Start Lagi Biar Bisa Lu Start Lagi Ajg",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
