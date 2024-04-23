@@ -167,7 +167,7 @@ str_2 : "➻ ᴠᴀʟɪᴅ sᴛʀᴇᴀᴍ ᴠᴇʀɪғɪᴇᴅ.\n\nᴘʀᴏᴄ�
 str_3 : "ғᴀɪʟᴇᴅ ᴛᴏ sᴛʀᴇᴀᴍ ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ sᴛʀᴇᴀᴍ, ɴᴏ ʟɪᴠᴇ ꜰᴏʀᴍᴀᴛ ꜰᴏᴜɴᴅ."
 
 ping_1 : "{0} ɪs ᴘɪɴɢɪɴɢ..."
-ping_2 : "❏ Pong : <code>{0}ᴍs</code>\n<b><u>├ System Stats {1}:</u></b>\n├ Uptime : {2}\n├ Ram : {3}\n├ Cpu : {4}\n├ Disk : {5}\n╰ PyTGCalla : <code>{6}ᴍs</code>"
+ping_2 : "❏ Pong : <code>{0}ᴍs</code>\n<b><u>├ System Stats {1}:</u></b>\n├ Uptime : {2}\n├ Ram : {3}\n├ Cpu : {4}\n├ Disk : {5}\n╰ PyTGCalls : <code>{6}ᴍs</code>"
 
 queue_1 : "» ғᴇᴛᴄʜɪɴɢ ǫᴜᴇᴜᴇ...\n\nᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
 queue_2 : "» ǫᴜᴇᴜᴇ ᴇᴍᴘᴛʏ."
@@ -277,8 +277,8 @@ log_3 : "ᴅɪsᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ."
 
 broad_1 : "» OTEWEE BROADCAST YA ANJENG..."
 broad_2 : "<b>EXAMPLE :</b>\n\n/broadcast [KASIH GUA PESAN UNTUK LU REP YA ANJING]"
-broad_3 : "» Berhasil Terkirim Ke {0} Chat With {1} Pin Dari Bot ."
-broad_4 : "» Beehasil Terkirim Segini {0} Ya Anjing."
+broad_3 : "Berhasil Terkirim Ke {0} Chat With {1} Pin Dari Bot ."
+broad_4 : "Berhasil Terkirim Segini {0} Orang Ya Anjing."
 broad_5 : "» sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ..."
 broad_6 : "➻ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ :\n\n"
 broad_7 : "↬ ᴀssɪsᴛᴀɴᴛ {0} ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ɪɴ {1} ᴄʜᴀᴛs."
