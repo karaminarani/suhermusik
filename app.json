@@ -1,7 +1,7 @@
 {
-    "name": "ᴅᴀꝛᴇᴇɴ ꭙ͢ ꝛᴏʙᴏᴛ",
+    "name": "ᴀᴅᴇʟ ✘ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph//file/a5691cee54c38d752b449.jpg",
+    "logo": "https://graph.org/file/3f456b7347c06ff7114e3.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,17 +14,17 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "22016511",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "8267335b1cbd700a179dbe9a9a482d1e",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6856762693:AAF7RrJqp82enXJsoffa98XRcTytZiqp4GM",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "6953052196",
         "required": true
       },
       "STRING_SESSION": {
@@ -52,9 +52,39 @@
         "value": "",
         "required": false
       },
+      "START_IMG_URL": {
+        "description": "Au Ya Cari sendiri",
+        "value": "https://graph.org/file/e0c467b6e32a164e0167d.jpg",
+        "required": false
+      },
+      "PING_IMG_URL": {
+        "description": "Au Ya Cari sendiri",
+        "value": "https://graph.org/file/5e89a9ef0f61a26cb92f6.jpg",
+        "required": false
+      },
+      "STATS_IMG_URL": {
+        "description": "Au Ya Cari sendiri",
+        "value": "https://graph.org/file/1e0e1bbbd39c94727a3ba.jpg",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "APA SI AJG?",
+        "value": "https://t.me/cehadaren",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "APA MEMEK?",
+        "value": "https://t.me/Darensupport",
+        "required": true
+      },
+      "UPSTREAM_REPO":{
+        "description": "CARI AJA REPO LU SENDIRI TOLOL!!!!",
+        "value": "https://github.com/mikeel-ye/darenmusik",
+        "required": true
+      },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1002063460821",
         "required": true
       }
     },
